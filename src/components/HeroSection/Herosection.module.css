@@ -1,0 +1,14 @@
+.heroSection{
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 270px;
+    margin-top: 74px;
+}
+.heroImg{
+    background-color: var(--color-black);
+    width: 799px;
+    height: 212px;
+    margin-top: 103px;
+}

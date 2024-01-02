@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    background-color: var(--color-primary);
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 74px;
+}
+.logo{
+    width: 67px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-bottom: 20px;
+}
+.searchbar{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 436px;
+}
