@@ -5,7 +5,7 @@ import { CircularProgress } from "@mui/material";
 import Carousel from "../Carousel/Carousel";
 
 export default function Section({ title, data, type }){
-    const [carouselToggle, setCarouselToggle] = useState(false);
+    const [carouselToggle, setCarouselToggle] = useState(true);
 
     const handleToggle = () => {
         setCarouselToggle((prevState) => !prevState);
@@ -19,7 +19,7 @@ export default function Section({ title, data, type }){
                   className={styles.toggleText}
                   onClick={handleToggle}
                   >
-                    {!carouselToggle ? "CollapseAll" : "ShowAll"}
+                    {!carouselToggle ? "Collapse All" : "Show All"}
               </h4>
             </div>
             {data.length === 0 ? (
